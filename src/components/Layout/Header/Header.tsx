@@ -16,7 +16,7 @@ const Header = () => {
       
       <ul className="ml-1 mt-8 flex items-center" aria-label="Social media">
         {contacts.map(contact => <li key={contact.name} className="mr-5 text-xs font-times">
-          <Link href={contact.icon}>
+          <Link href=''>
             <span className="block hover:text-slate-200 cursor-pointer">{contact.icon}</span>
           </Link>
         </li>)}

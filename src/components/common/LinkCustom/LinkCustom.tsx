@@ -1,6 +1,11 @@
 import Link from 'next'
 
-const LinkCustom = ({ title, link }) => {
+interface LinkCustomProps {
+  title: string;
+  link: string;
+}
+
+const LinkCustom: React.FC<LinkCustomProps> = ({ title, link }) => {
   return <a className="inline-flex items-center leading-tight text-slate-200 font-semibold group" aria-label="View Full Résumé" href={link}>
     <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">{title}</span>
     <span className="whitespace-nowrap">
