@@ -2,7 +2,7 @@ export const projectsList = [
   {
     id: '02',
     title: "Financial Widget",
-    description: "Usefull calculator to help with planning big purchases",
+    description: "Usefull calculator to help to plan big purchases",
     image: "/images/tailwindcss.png",
     skills: ["Bootstrap", "React", "Typescript", "NextJS"],
     link: "https://tailwindcss-project-by-kristina.netlify.app/"
