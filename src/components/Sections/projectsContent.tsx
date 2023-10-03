@@ -1,6 +1,6 @@
 export const projectsList = [
   {
-    id: '02',
+    id: '020',
     title: "Financial Widget",
     description: "Usefull calculator to help to plan big purchases",
     image: "/images/tailwindcss.png",
