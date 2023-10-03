@@ -16,3 +16,13 @@
     box-sizing: border-box;
   }
 }
+
+@layer components {
+  .active .nav-indicator {
+    width: 4rem;
+  }
+
+  .active .nav-text {
+    color: rgb(226 232 240 / var(--tw-text-opacity));
+  }
+}
