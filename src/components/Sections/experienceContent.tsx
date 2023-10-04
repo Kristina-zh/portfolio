@@ -4,6 +4,7 @@ export const experienceList = [
     period: "Oct 21 — Apr 23",
     title: "Frontend Developer",
     company: "Ballast Lane Aplications",
+    link: "https://ballastlane.com/",
     description: "Built responsive UI components in React, utilizing modern tech. I employed GraphQL for UI data, crafted flexible dashboards with customizable widgets, and migrated code from Angular. Animations were added using Motion Framer and Lottie, and code quality was ensured via React Testing Library and Jest. I also contributed to code reviews and team best practices.",
     skills: ["React", "Next.js", "Gatsby", "SCSS", "TailwindCSS", "Javascript", "Typescript", "GraphQL", "Jest", "Unit Testing", "Animation"]
   },
@@ -12,6 +13,7 @@ export const experienceList = [
     period: "Jan 20 — Oct 21",
     title: "Javascript Developer",
     company: "Kitsoft Ukraine",
+    link: "https://kitsoft.ua/",
     description: "Oversaw implementation, business logic, and transitions using BPMN and JavaScript. Developed technical solutions with UX/UI design and JSON. Also I got a chance to integrated layouts with CMS code.",
     skills: ["Javascript", "BPMN", "HTML5", "CSS", "CMS", "Bootstrap", "BEM", "Gitlab"]
   },
