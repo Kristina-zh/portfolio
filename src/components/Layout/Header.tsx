@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import Navigation from '../Navigation'
+import Navigation from './Navigation'
 
 import { contacts } from "./socials"
 

@@ -22,6 +22,7 @@ export const experienceList = [
     period: "Jun 19 — Jan 20",
     title: "Frontend Developer",
     company: "freelance",
+    link: "https://github.com/Kristina-zh",
     description: "Primarily focused on pet-project engagements, crafting captivating responcive websites. My freelance path has been an experimental playground, where I've fearlessly tested and adopted various technologies to enhance user experiences and bring digital concepts to life.",
     skills: ["HTML5", "SCSS", "Javascript", "React", "Redux", "Webpack", "Github"]
   }
