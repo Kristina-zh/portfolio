@@ -2,7 +2,7 @@
 export const contacts = [
   {
     name: 'github',
-    icon: "",
+    icon: " ",
     // icon: <GitHubIcon sx={{ fontSize: 28 }} />,
     link: 'https://github.com/Kristina-zh',
   },
