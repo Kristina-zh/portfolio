@@ -1,8 +1,8 @@
 export const projectsList = [
   {
     id: '02',
-    title: "Financial Widget",
-    description: "Usefull calculator to help to plan big purchases",
+    title: "Savings Goal Calculator",
+    description: "Usefull widget that takes control of your financials. By inputting your expected expenses and income, along with the dates and amounts, this calculator provides you with a clear prediction of when you can expect to reach your savings goal.",
     image: "/images/calculator.png",
     imageAlt: "fin calculator project image",
     skills: ["React","NextJS", "Typescript", "Bootstrap"],
