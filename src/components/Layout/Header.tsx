@@ -13,11 +13,15 @@ const Header = () => {
         <p className="mt-4 max-w-xs">I create user-friendly, inclusive digital solutions and web experiences.</p>
         <Navigation />
       </div>
-      
+
       <ul className="ml-1 mt-8 flex items-center" aria-label="Social media">
         {contacts.map(contact => <li key={contact.name} className="mr-5 text-xs font-times">
-          <Link href=''>
-            <span className="block hover:text-slate-200 cursor-pointer">{contact.icon}</span>
+          <Link href={contact.link} legacyBehavior>
+            <a target="_blank" rel="noopener noreferrer">
+              <span className="block hover:text-slate-200 cursor-pointer">
+                {contact.icon}
+              </span>
+            </a>
           </Link>
         </li>)}
       </ul>

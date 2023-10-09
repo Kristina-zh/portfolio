@@ -11,7 +11,7 @@ export const projectsList = [
   {
     id: '01',
     title: "Simple Landing Page",
-    description: "Responcive modern web-site, implemented theme switcher by using TailwindCSS technology.",
+    description: "Responcive modern web-site, implemented theme switcher by using TailwindCSS technology. Deployed with Netlify.",
     image: "/images/tailwindcss.png",
     imageAlt: "fin tailwindcss project image",
     skills: ["Javascript", "TailwindCSS", "Netlify"],
